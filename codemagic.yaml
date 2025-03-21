@@ -4,11 +4,11 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: DK27PinterestDownloader
+      app_store_connect: DK027PinterestDownloader
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: свой Bundle ID
+        bundle_identifier: com.kha.p1nt3r3std0wn
       vars:
         BUNDLE_ID: "com.kha.p1nt3r3std0wn"
         XCODE_PROJECT: "PinterestDownloader.xcodeproj"
